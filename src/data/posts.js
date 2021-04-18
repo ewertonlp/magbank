@@ -14,7 +14,7 @@ const posts = [
 {
     id: 2,
     image: image2,
-    title: 'Phasellus eget elementum diam',
+    title: 'Phasellus eget elementum',
     excerpt:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
     action: 'Peça já',

@@ -19,13 +19,31 @@
 
   &__button {
     color: $color-primary;
+    text-decoration: none;
+    margin-bottom: .5rem;
+    outline:unset;
+
+    &:focus {
+      text-decoration: none;
+    }
 
     &:hover,
-    &--active {
+    &--active,
+    &--active:hover {
       color: #fff;
       background-color: $color-primary;
       text-decoration: none;
     }
+
+    &:hover {
+      background-color: $color-muted;
+    }
+
+    &--active,
+    &--active:hover {
+      background-color: $color-primary;
+    }
+
   }
 
   a.nav-item.nav-link {
@@ -34,6 +52,13 @@
 
   a.nav-item.nav-link.active {
     color: $color-muted;
+  }
+
+  a.dashboard__link,
+  a.dashboard__link:active,
+  a.dashboard__link:focus,
+  a.dashboard__link:hover {
+    text-decoration: none;
   }
 
 
